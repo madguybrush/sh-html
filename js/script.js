@@ -8,6 +8,10 @@
         hauteurhp1 = $('#pratiques').outerHeight();
         $('#imgpratiques').css('min-height', hauteurhp1);
 
+                hauteurhp2 = $('#studio').outerHeight();
+        $('#imgstudio').css('min-height', hauteurhp2);
+
+        
 	}
 
 
