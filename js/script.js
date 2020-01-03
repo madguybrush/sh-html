@@ -8,9 +8,18 @@
         hauteurhp1 = $('#pratiques').outerHeight();
         $('#imgpratiques').css('min-height', hauteurhp1);
 
-                hauteurhp2 = $('#studio').outerHeight();
+        hauteurhp2 = $('#studio').outerHeight();
         $('#imgstudio').css('min-height', hauteurhp2);
 
+        hauteurpilates1 = $('#methodepilates').outerHeight();
+        hauteurimgpilates1 = $('#imgmethodepilates').outerHeight();
+        
+        if (hauteurimgpilates1 > hauteurpilates1){
+             $('#methodepilates').css('min-height', hauteurimgpilates1);
+        }  else {
+        $('#imgmethodepilates').css('min-height', hauteurpilates1);
+        }
+        
         
 	}
 
@@ -28,7 +37,7 @@ resized();
 
 
    	$( window ).resize(	function(){
-			//resized();
+			resized();
 		});
 
 	
