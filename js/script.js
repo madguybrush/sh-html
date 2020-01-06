@@ -20,6 +20,8 @@
         $('#imgmethodepilates').css('min-height', hauteurpilates1);
         }
         
+        hauteurblocgris = $('#blocgris').outerHeight();
+        $('#imgblocgris').css('min-height', hauteurblocgris);
         
 	}
 

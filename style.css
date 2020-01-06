@@ -1,3 +1,14 @@
+@import url("https://use.typekit.net/ddm7kvr.css");
+
+
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+    font-family: futura-pt, sans-serif;
+    font-weight: 500;
+    color: #2B3441;
+}
 
 html, body{
     height: 100%;
@@ -40,7 +51,7 @@ min-height: 100%;
 
 .navbar-light .navbar-nav .nav-link{
         text-align: center;
-font: Book 12px/16px Futura Std;
+/*font: Book 12px/16px Futura Std;*/
     font-size: 12px;
 letter-spacing: 2.4px;
 color: #2B3441;
@@ -51,9 +62,12 @@ text-transform: uppercase;
 }
 
 .logo-container{
+    /*flex-direction: column;*/
     align-items: center; 
     justify-content: center; 
     height: 100vh;
+    align-content: center;
+    
 } 
 
 .logo {
@@ -92,7 +106,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 
 h1{
     text-decoration: underline;
-font: Book 17px/23px Futura Std;
+/*font: Book 17px/23px Futura Std;*/
 letter-spacing: 3.4px;
 color: #2B3441;
 text-transform: uppercase;
@@ -101,15 +115,16 @@ text-transform: uppercase;
 
 h2{
     text-align: center;
-font: Medium 28px/40px Futura Std;
+/*font: Medium 28px/40px Futura Std;*/
 letter-spacing: 11.2px;
 color: #2B3441;
 text-transform: uppercase;
      font-size: 1.8rem;
 }
 
+
 h3{
-    text-align: center;
+   /* text-align: center;*/
 font: Book 19px/27px Futura Std;
 letter-spacing: 3.8px;
 color: #2B3441;
@@ -118,7 +133,7 @@ color: #2B3441;
 
 h4{
 text-align: center;
-font: Book 22px/39px Futura Std;
+/*font: Book 22px/39px Futura Std;*/
 letter-spacing: 6px; /* 8.8 */
 color: #2B3441;
 text-transform: uppercase;
@@ -128,25 +143,30 @@ text-transform: uppercase;
 
 h5{
 text-align: center;
-font: Book 22px/39px Futura Std;
+/*font: Book 22px/39px Futura Std;*/
 letter-spacing: 4px;
 color: #2B3441;
 text-transform: uppercase;
      font-size: .7rem;
-    padding: 15%;
+    padding-left: 15%;
+    padding-right: 15%;
     font-weight: 400;
 
 }
 
 .plus{
     text-align: center;
-font: Light 62px/86px Futura Std;
+/*font: Light 62px/86px Futura Std;*/
 letter-spacing: 24.8px;
 
     font-size: 3.8rem;
 }
 
-
+p a {
+    color:#C96B54; 
+    text-decoration: underline;
+    letter-spacing: 3.6px;
+}
 
 
 
@@ -164,16 +184,17 @@ letter-spacing: 24.8px;
 }
 
 adress{
-    font: Medium 30px/46px FreightBig Pro;
-    font-size: 1.8rem;
+   /* font: Medium 30px/46px FreightBig Pro;*/
+    font-size: 30px;
 letter-spacing: 3px;
 color: #2B3441;
+    font-family: freight-big-pro;
 }
 
 .social{
-  font-size: 0.8rem;
+  font-size: 13px;
     text-decoration: underline;
-font: Book 13px/19px Futura Std;
+/*font: Book 13px/19px Futura Std;*/
 letter-spacing: 3.9px;
 color: #C96B54;
 text-transform: uppercase;
@@ -181,7 +202,7 @@ text-transform: uppercase;
 }
 
 .mentions{
-    font: Medium 10px/14px Futura Std;
+   /* font: Medium 10px/14px Futura Std;*/
 letter-spacing: 2px;
     font-size: 0.6rem;
     color: #FFFFFF;
@@ -195,10 +216,43 @@ footer{
 
 
 
-/**********page pilates***********/
+/****page pilates****/
 
 
+#pilates h1{
+    letter-spacing: 28.8px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 48px;
+    line-height: 68px;
+    font-weight: 500;
+}
 
+
+#pilates h2{
+    text-decoration: underline;
+/*font: Book 17px/23px Futura Std;*/
+letter-spacing: 3.4px;
+text-transform: uppercase;
+    font-size: 17px;
+    font-weight: 400;
+}
+
+#pilates h3{
+    letter-spacing: 4.2px;
+    font-size: 21px;
+    line-height: 29px;
+    padding-bottom: 1.5rem;
+    padding-top: .5rem;
+    font-weight: 500;
+}
+
+.text0{
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    font-size: 20px;
+    font-weight: 500;
+}
 
 #pratiques{
     background-color: white;
@@ -221,6 +275,33 @@ footer{
     z-index: 1025;
 }
 
+#pilates .titregris{
+    letter-spacing: 3.8px;
+     font-size: 19px;
+        padding-right: 15%;
+    padding-left: 15%;
+    padding-top: 5%;
+        padding-bottom: 0;
+}
+  
+strong{
+    font-family: freight-big-pro;
+}
+
+.textgris{
+  
+    font-size: 20px;
+letter-spacing: 1px;
+    font-family: freight-big-pro;
+    font-weight: 300;
+    line-height: 39px;
+    padding-right: 15%;
+    padding-left: 15%;
+    padding-top: 5%;
+
+}
+
+
 .fixed{
     position:fixed;
    /* z-index: 1020;*/
@@ -228,17 +309,31 @@ footer{
     right: 0;
 }
 
-#pilates .methodepilates{
+#pilates .textmaj{
     text-align: center;
 font: Book 19px/27px Futura Std;
 letter-spacing: 3.8px;
 color: #2B3441;
     font-size: 1rem;
     text-transform: uppercase;
-    padding: 4rem;
+    padding: 15%; /*4rem;*/
     text-align: left;
     font-weight: 400;
-    line-height: 1.5rem;
+    line-height: 2rem;
+}
+#pilates .textmaj2{
+    text-align: center;
+font: Book 19px/27px Futura Std;
+letter-spacing: 3.8px;
+color: #2B3441;
+    font-size: 1rem;
+    text-transform: uppercase;
+    padding-left: 0;
+    padding-right: 0;
+    text-align: left;
+    font-weight: 400;
+    line-height: 2rem;
+    padding-top: 1rem;
 }
 
 #methodepilates{
@@ -255,12 +350,27 @@ color: #2B3441;
     /*font: Book 24px/60px Futura Std;*/
     text-align: right;
     font-size: 1.5rem;
-    line-height: 60px;
+    line-height: 3.5rem;
     padding-right: 15%;
     padding-left: 25%;
     padding-top: 10%;
     font-weight: 200;
 }
+
+.text2{
+    text-transform: uppercase;
+    color: #2B3441;
+    letter-spacing: 6.9px;
+    /*font: Book 24px/60px Futura Std;*/
+    text-align: left;
+    font-size: 1.2rem;
+    line-height: 2rem;
+    padding-right: 0;
+    padding-left: 0;
+    padding-top: 10%;
+    font-weight: 400;
+}
+
 
 .bg1 {
   /* The image used */
@@ -281,3 +391,63 @@ color: #2B3441;
     background-size: cover;
     background-position: center;*/
 }
+
+/****page pilates - LES COURS****/
+
+#pilates .textgauche{
+    text-transform: uppercase;
+    font-size: 30px;
+    line-height: 42px;
+    font-weight: 500;
+    letter-spacing: 9px;
+    padding-right: 2rem;
+    color: #2B3441;
+}
+
+#pilates .textdroite{
+    letter-spacing: 4.5px;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 500;
+    margin-bottom: .5rem;
+}
+
+#pilates .textdroite2{
+    letter-spacing: 1px;
+    font-family: freight-big-pro;
+    font-size: 20px;
+    font-weight: 200;
+}
+
+
+
+.fond2{
+    
+    background: rgba(255,255,255,1);
+    
+background: linear-gradient(rgba(242,233,225,1) 0%, rgba(242,233,225,1) 25%, rgba(255,255,255,1) 25%, rgba(255,255,255,1) 100%);
+    
+}
+
+
+
+
+/***en savoir plus**/
+#ensavoirplus .email{
+    text-decoration: underline;
+letter-spacing: 5.4px;
+text-transform: uppercase;
+    font-size: 18px;
+    color: inherit;
+    font-weight: 400;
+}
+
+
+#ensavoirplus .tel{
+letter-spacing: 5.4px;
+    font-size: 18px;
+    color: inherit;
+    font-weight: 400;
+}
+
+
