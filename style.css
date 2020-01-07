@@ -462,6 +462,24 @@ background: linear-gradient(rgba(242,233,225,1) 0%, rgba(242,233,225,1) 25%, rgb
         padding-right: 10%;
     }
     
+                #pilates .textdroite{
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+        #pilates .textdroite2{
+      padding-left: 10%;
+        padding-right: 10%;
+    }
+    .lienplanning{
+           padding-left: 10%;
+        padding-right: 10%;
+    }
+    
+        #ensavoirplus{
+          padding-left: 10%;
+        padding-right: 10%;
+    }
+    
 }
 
 
@@ -476,24 +494,8 @@ background: linear-gradient(rgba(242,233,225,1) 0%, rgba(242,233,225,1) 25%, rgb
         font-size: 10vw;
     }
     
-            #pilates .textdroite{
-        padding-left: 10%;
-        padding-right: 10%;
-    }
-        #pilates .textdroite2{
-      padding-left: 10%;
-        padding-right: 10%;
-    }
     
-    .lienplanning{
-           padding-left: 10%;
-        padding-right: 10%;
-    }
-    
-    #ensavoirplus{
-          padding-left: 10%;
-        padding-right: 10%;
-    }
+
 }
 
 
