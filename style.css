@@ -8,11 +8,14 @@
     font-family: futura-pt, sans-serif;
     font-weight: 500;
     color: #2B3441;
+    /*overflow: auto;*/
+
 }
 
 html, body{
     height: 100%;
     width: 100%;
+    overflow-wrap: break-word;
 }
 
 #hp {
@@ -114,7 +117,7 @@ text-transform: uppercase;
 }
 
 h2{
-    text-align: center;
+   /* text-align: center;*/
 /*font: Medium 28px/40px Futura Std;*/
 letter-spacing: 11.2px;
 color: #2B3441;
@@ -166,6 +169,7 @@ p a {
     color:#C96B54; 
     text-decoration: underline;
     letter-spacing: 3.6px;
+    font-weight: 400;
 }
 
 
@@ -311,12 +315,13 @@ letter-spacing: 1px;
 
 #pilates .textmaj{
     text-align: center;
-font: Book 19px/27px Futura Std;
-letter-spacing: 3.8px;
+letter-spacing: 3.2px;
 color: #2B3441;
-    font-size: 1rem;
+    font-size: 16px;
     text-transform: uppercase;
     padding: 15%; /*4rem;*/
+    padding-top: 0;
+    padding-bottom: 25%;
     text-align: left;
     font-weight: 400;
     line-height: 2rem;
@@ -340,7 +345,7 @@ color: #2B3441;
     flex-direction: column;
     display: flex;
     justify-content: center;
-    background-color: white;
+    background-color: #F2E9E1; /*white;*/
 }
 
 .text1{
@@ -353,7 +358,7 @@ color: #2B3441;
     line-height: 3.5rem;
     padding-right: 15%;
     padding-left: 25%;
-    padding-top: 10%;
+    padding-top: 15%;
     font-weight: 200;
 }
 
@@ -429,10 +434,188 @@ background: linear-gradient(rgba(242,233,225,1) 0%, rgba(242,233,225,1) 25%, rgb
     
 }
 
+#pilates .imgrond{
+    width: 40%;
+    position: absolute;
+    bottom: -10%;
+    left: -10%;
+}
+
+
+/********responsive***********/
+
+@media only screen and (max-width: 768px) {
+    
+    #pilates .imgrond{
+    display: none;
+}
+    #pilates .textmaj{
+        padding-bottom: 10%;
+    }
+    
+        #pilates .text2{
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+        #pilates .textmaj2{
+      padding-left: 10%;
+        padding-right: 10%;
+    }
+    
+}
+
+
+@media only screen and (max-width: 400px) {
+
+    .text0{
+        display: none;
+    }
+    
+    #pilates h1{
+        letter-spacing: 5vw;
+        font-size: 10vw;
+    }
+    
+            #pilates .textdroite{
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+        #pilates .textdroite2{
+      padding-left: 10%;
+        padding-right: 10%;
+    }
+    
+    .lienplanning{
+           padding-left: 10%;
+        padding-right: 10%;
+    }
+    
+    #ensavoirplus{
+          padding-left: 10%;
+        padding-right: 10%;
+    }
+}
+
+
+/*********page GIROKINESIS*****************/
+
+
+
+#giro {
+  margin: 0;
+    background-image: url('img/fondgiro.png');
+   /*background: #C96B54 0% 0% no-repeat padding-box;*/
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    background-position: left;
+   /* height: 100vh;
+    width: 100vw;*/
+}
+
+
+#giro h1{
+    letter-spacing: 28.8px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 48px;
+    line-height: 68px;
+    font-weight: 500;
+}
+
+
+#giro h2{
+    text-decoration: underline;
+/*font: Book 17px/23px Futura Std;*/
+letter-spacing: 3.4px;
+text-transform: uppercase;
+    font-size: 17px;
+    font-weight: 400;
+}
+
+#giro h3{
+    letter-spacing: 4.2px;
+    font-size: 21px;
+    line-height: 29px;
+    padding-bottom: 1.5rem;
+    padding-top: .5rem;
+    font-weight: 500;
+}
+
+
+#giro #blocgris1{
+    padding: 10%;
+    background-color: #C5CAC6;
+}
+
+
+#giro .titregris{
+    letter-spacing: 3.8px;
+     font-size: 19px;
+        padding-right: 15%;
+    padding-left: 15%;
+    padding-top: 5%;
+        padding-bottom: 0;
+}
+  
+#giro .textmaj{
+
+letter-spacing: 3.2px;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 400;
+    line-height: 2rem;
+    padding-top: 10%;
+}
+
+#giro .textmaj2{
+letter-spacing: 6px;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 400;
+    line-height: 50px;
+    padding-top: 10%;
+}
+
+
+
+#giro .textgauche{
+    text-transform: uppercase;
+    font-size: 30px;
+    line-height: 42px;
+    font-weight: 500;
+    letter-spacing: 9px;
+    padding-right: 2rem;
+}
+
+#giro .textdroite{
+    letter-spacing: 4.5px;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 500;
+    margin-bottom: .5rem;
+}
+
+#giro .textdroite2{
+    letter-spacing: 1px;
+    font-family: freight-big-pro;
+    font-size: 20px;
+    font-weight: 200;
+}
 
 
 
 /***en savoir plus**/
+
+#ensavoirplus h2{
+    text-decoration: underline;
+/*font: Book 17px/23px Futura Std;*/
+letter-spacing: 3.4px;
+text-transform: uppercase;
+    font-size: 17px;
+    font-weight: 400;
+}
+
 #ensavoirplus .email{
     text-decoration: underline;
 letter-spacing: 5.4px;
@@ -449,5 +632,6 @@ letter-spacing: 5.4px;
     color: inherit;
     font-weight: 400;
 }
+
 
 

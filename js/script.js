@@ -12,7 +12,9 @@
         $('#imgstudio').css('min-height', hauteurhp2);
 
         hauteurpilates1 = $('#methodepilates').outerHeight();
+        //console.log(hauteurpilates1);
         hauteurimgpilates1 = $('#imgmethodepilates').outerHeight();
+        //console.log(hauteurimgpilates1);
         
         if (hauteurimgpilates1 > hauteurpilates1){
              $('#methodepilates').css('min-height', hauteurimgpilates1);
@@ -23,18 +25,27 @@
         hauteurblocgris = $('#blocgris').outerHeight();
         $('#imgblocgris').css('min-height', hauteurblocgris);
         
+        
+        hauteurblocgris1 = $('#blocgris1').outerHeight();
+        $('#imgblocgris1').css('min-height', hauteurblocgris1);
+         hauteurblocgris2 = $('#blocgris2').outerHeight();
+        $('#imgblocgris2').css('min-height', hauteurblocgris2);
+        
 	}
 
 
+$(window).on('load', function(){ 
+
+		resized();
+});
 
 
 $( document ).ready( function() {
 
 resized();
-
     
-
 });
+
 
 
 
@@ -42,19 +53,13 @@ resized();
 			resized();
 		});
 
+
 	
 	$( window ).on( "orientationchange", function( event ) {
 		//resized();
 	});
 
 	
-
-  $('.back').css('-webkit-backface-visibility', 'hidden');
- $('.back').css('backface-visibility', 'hidden');
-
-
-
-
 
 
    
