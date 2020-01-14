@@ -17,9 +17,15 @@
 
 </head>
 <body id="giro">
+    
+<div class="container-loader">
+	<div class="aucentre text-center">
+		<span class="loader align-middle"></span>
+	</div>
+</div>
 
 
-<nav class="navbar navbar-expand-lg bg-light navbar-light fixed-top">
+<nav class="navbar navbar-expand-lg bg-light navbar-light fixed-top d-none animated fadeInDown">
   <a class="navbar-brand" href="index.html"><img src="img/logosmall.png" style="padding-right: 18px"></a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
     <span class="navbar-toggler-icon"></span>
@@ -42,7 +48,7 @@
       
     <ul class="navbar-nav">
       <li class="nav-item">
-        <a class="nav-link" href="#">CONTACT</a>
+        <a class="nav-link" href="#" onclick="popin()">CONTACT</a>
       </li>
     <li class="nav-item">
         <a class="nav-link" href="#" style="text-decoration: underline">ESPACE MEMBRE</a>
@@ -50,6 +56,38 @@
     </ul>
   </div>  
 </nav>
+    
+    
+    
+<div id="popup" class="popup">
+    <div class="popupcontent animated fadeInDown container-fluid">
+        <div class="row no-gutters align-items-center " >     
+            <div class="col-md-10 offset-md-1 mt-5 text-center mb-5" id="ensavoirplus">
+                <h2>CONTACT</h2>
+                <br>
+            
+                <h4>VOUS SOUHAITEZ PRATIQUER ?<br>
+                VOUS INSCRIRE A UN COURS D'ESSAI ?</h4>
+                <br>
+            
+                <a href="" class="email">S.HERAUT@STUDIO-SH.FR</a>
+            
+                <p class="tel mt-3">06 32 84 08 78</p>
+                <br>
+            
+                <p>
+                    <a href="https://www.facebook.com/SH-Pilates-Bordeaux-358572997554267/" class="social" target="_blank">facebook</a>
+                    <a href="" class="social">instagram</a>
+                </p>
+            </div> 
+        </div>
+
+        
+	</div>
+</div>
+    
+    
+    <div class="content d-none animated fadeIn" >   
     
     <div class="container-fluid fixed">
         <div class="row">
@@ -95,7 +133,7 @@
             
             <p class="textmaj">L’objectif est de renforcer harmonieusement les muscles profonds nécessaires à l’équilibre du corps et au maintien de la colonne vertébrale, à partir du centre : la sangle abdominale.</p>
             
-            <p class="textmaj2">
+            <p class="textmaj3">
             FLEXION, <br>
             EXTENSION, <br>
             ONDULATION,  <br>
@@ -107,7 +145,24 @@
     </div>
     
     
-    
+    <div class="row no-gutters align-items-center mt-4" style="background-color: #FFF; padding: 0;"> <!-- F2E9E1 -->
+         
+        <div class="col-md-4 offset-md-2">
+            <img src="img/giro2.png" alt="pilates" style="max-width: 100%; padding: 10%;"  />
+        </div>
+         
+         
+        <div class="col-md-4 text-center pt-4 pb-2" > <!--style="background-image: url(img/rond.png); background-position: right; background-repeat: no-repeat;"-->
+            <div class="text2">
+                le corps bouge avec plus de flexibilité et d’aisance.
+            </div>
+            <p class="textmaj2">
+            Elle accentue le travail sur la mobilité de la colonne vertébrale et du bassin : flexion, extension, ondulation et spirale. L’enchaînement de mouvements fluides en harmonie avec la respiration permet de libérer les articulations, assouplir les muscles et de stimuler la circulation de l’énergie.
+            </p>
+        </div>
+        
+
+    </div>
     
     
     
@@ -144,14 +199,6 @@
             <p class="textdroite2">Sur tapis, avec accessoires : ballon, bosu, cercle, foam roller, bande élastique, toning balls… </p>
         </div>
         
-        <div class="col-md-3 offset-md-2 text-right">
-            <p class="textgauche">cours MAchines</p>
-        </div>
-        
-        <div class="col-md-5 pt-4 pb-2 text-left">
-            <p class="textdroite2">Ils mettent l’accent sur un travail plus précis du mouvement et de la posture. Ils sont adaptés aux besoins de la personne et à ses contraintes physiques. </p>
-            <p class="textdroite">Wall Unit, Reformer, Ladder Barrel, Combo Chair et Spine Corrector. </p>
-        </div>
         
         <div class="col-md-3 offset-md-2 text-right">
             <p class="textgauche">Stages</p>
@@ -224,6 +271,8 @@
     
 </footer>    
     
+        
+    </div>
     
  <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
  <script src="js/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>-->

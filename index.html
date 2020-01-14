@@ -17,8 +17,22 @@
 </head>
 <body id="hp">
 
+    <!--
+ <div class="container-loader">
+    <div>
+        <span class="loader"></span>
+     </div>
+</div>-->
+    
+<div class="container-loader">
+	<div class="aucentre text-center">
+		<span class="loader align-middle"></span>
+	</div>
+</div>
 
-<nav class="navbar navbar-expand-lg bg-light navbar-light fixed-top">
+
+
+<nav class="navbar navbar-expand-lg bg-light navbar-light fixed-top d-none animated fadeInDown ">
   <a class="navbar-brand" href="index.html"><img src="img/logosmall.png" style="padding-right: 18px"></a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
     <span class="navbar-toggler-icon"></span>
@@ -41,7 +55,7 @@
       
     <ul class="navbar-nav">
       <li class="nav-item">
-        <a class="nav-link" href="#">CONTACT</a>
+        <a class="nav-link" href="#" onclick="popin()">CONTACT</a>
       </li>
     <li class="nav-item">
         <a class="nav-link" href="#" style="text-decoration: underline">ESPACE MEMBRE</a>
@@ -49,6 +63,38 @@
     </ul>
   </div>  
 </nav>
+    
+        
+    
+<div id="popup" class="popup">
+    <div class="popupcontent animated fadeInDown container-fluid">
+        <div class="row no-gutters align-items-center " >     
+            <div class="col-md-10 offset-md-1 mt-5 text-center mb-5" id="ensavoirplus">
+                <h2>CONTACT</h2>
+                <br>
+            
+                <h4>VOUS SOUHAITEZ PRATIQUER ?<br>
+                VOUS INSCRIRE A UN COURS D'ESSAI ?</h4>
+                <br>
+            
+                <a href="" class="email">S.HERAUT@STUDIO-SH.FR</a>
+            
+                <p class="tel mt-3">06 32 84 08 78</p>
+                <br>
+            
+                <p>
+                    <a href="https://www.facebook.com/SH-Pilates-Bordeaux-358572997554267/" class="social" target="_blank">facebook</a>
+                    <a href="" class="social">instagram</a>
+                </p>
+            </div> 
+        </div>
+
+        
+	</div>
+</div>
+    
+    
+<div class="content d-none animated fadeIn" >   
 
 <div class="container-fluid">
     <div class="row logo-container">
@@ -199,6 +245,10 @@
     </div>
     
 </footer>    
+    
+    
+    
+    </div>
     
     
  <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
