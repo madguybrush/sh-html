@@ -90,6 +90,8 @@
         }
         
         
+        largeurrondtarifs = $('#rondtarifs').outerWidth(); 
+        $('#rondtarifs').css('min-height', largeurrondtarifs);
         
 	}
 
