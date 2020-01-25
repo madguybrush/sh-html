@@ -5,6 +5,14 @@
 		window_width = $( window ).width();
 		window_height = $( window ).height();
 
+        
+   if (window_width > 768){ 
+   
+   
+   
+      
+        
+        
         hauteurhp1 = $('#pratiques').outerHeight();
         $('#imgpratiques').css('min-height', hauteurhp1);
 
@@ -90,9 +98,19 @@
         }
         
         
-        largeurrondtarifs = $('#rondtarifs').outerWidth(); 
+  
+       
+       
+       }
+     
+       
+             largeurrondtarifs = $('#rondtarifs').outerWidth(); 
         $('#rondtarifs').css('min-height', largeurrondtarifs);
         
+       
+       
+       
+       
 	}
 
 

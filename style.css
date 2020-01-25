@@ -19,6 +19,7 @@ html, body{
      color: #2B3441;
     overflow-wrap: break-word;
     font-weight: 500;
+   /* font-size: 80%;*/
 }
 
 #hp {
@@ -466,6 +467,7 @@ color: #2B3441;
     display: flex;
     justify-content: center;
     background-color: #F2E9E1; /*white;*/
+    padding-top: 10%;
 }
 
 .text1{
@@ -492,6 +494,11 @@ color: #2B3441;
     padding-left: 0;
     padding-top: 10%;
     font-weight: 500;
+}
+
+#pilates #blocgris{
+    padding-bottom: 5%;
+    padding-top: 5%;
 }
 
 
@@ -597,6 +604,14 @@ background: linear-gradient(rgba(242,233,225,1) 0%, rgba(242,233,225,1) 25%, rgb
           padding-left: 10%;
         padding-right: 10%;
     }
+    
+    
+    #pilates .textgauche{
+        text-align: center;
+        margin-top: 1.5rem;
+        margin-bottom: 0;
+}
+
     
 }
 
@@ -750,6 +765,44 @@ letter-spacing: 6px;
 }
 
 
+#giro #blocgris2{
+    padding-bottom: 5%;
+    padding-top: 5%;
+}
+
+
+/********responsive***********/
+
+@media only screen and (max-width: 768px) {
+    
+
+#giro .text2{
+ padding-right: 10%;
+padding-left: 10%;
+    }
+
+#giro .textmaj2{
+ padding-right: 10%;
+padding-left: 10%;
+    }
+
+    #giro #cours{
+       padding-left : 10%;
+        padding-right: 10%;
+    }
+    
+    #giro .lienplanning{
+        text-align: center;
+    }    
+    
+        #giro .textgauche{
+        text-align: center;
+        margin-top: 1.5rem;
+        margin-bottom: 0;
+}
+    
+    
+}
 
 /*********page AUTRES PRATIQUES*****************/
 
@@ -1172,6 +1225,79 @@ color: #C5CAC6
     flex-direction: column;
     /*align-items: center;*/
     justify-content: center;
+
+    background-image: url(img/cartecadeau.png); 
+    background-position: 90% 30%; 
+    background-repeat: no-repeat;   
+    /*background-color: #FFF; */
+    padding-top: 9vh;
+    padding-bottom: 9vh;
+    padding-right: 10%;
+    padding-left: 5%;
+    /*flex-direction: column;
+    display: flex;
+    justify-content: center;*/
+}
+
+#planning #blocrose h3{
+   font-family: freight-big-pro;
+    letter-spacing: 3px;
+    font-size: 30px;
+    line-height: 46px;
+    padding-bottom: 0;
+    padding-top: 1.5rem;
+}
+
+#planning #blocrose p{
+    letter-spacing: 4.2px;
+    font-size: 21px;
+    line-height: 39px;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+
+#planning #tarifs{
+
+    padding-right: 5%;
+    padding-left: 5%;
+    
+} 
+
+#planning #rondtarifs{
+
+        letter-spacing: 4px;
+    font-size: 16px;
+    line-height: 38px;
+    text-transform: uppercase;
+    font-weight: 400;
+    
+}
+#planning #package{
+
+        letter-spacing: 5.1px;
+    font-size: 17px;
+    line-height: 51px;
+    text-transform: uppercase;
+    font-weight: 400;
+    
+}
+
+
+
+/********responsive***********/
+
+@media only screen and (max-width: 768px) {
+ 
+    #planning .coljour{
+        text-align: center;
+    }
+       
+    #planning .jour{
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+    
 }
 
 
